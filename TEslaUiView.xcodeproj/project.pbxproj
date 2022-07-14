@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7731B2287FF43A0014503A /* ActionCompanenets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7731B1287FF43A0014503A /* ActionCompanenets.swift */; };
+		CEA957DD287C0AFD00399315 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA957DC287C0AFD00399315 /* LocationView.swift */; };
+		CEA957DF287C0B2D00399315 /* CommonCompanents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA957DE287C0B2D00399315 /* CommonCompanents.swift */; };
 		CEDD86072874214100F98704 /* TEslaUiViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD86062874214100F98704 /* TEslaUiViewApp.swift */; };
 		CEDD86092874214100F98704 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD86082874214100F98704 /* ContentView.swift */; };
 		CEDD860B2874214300F98704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD860A2874214300F98704 /* Assets.xcassets */; };
-		CEDD860E2874214300F98704 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD860D2874214300F98704 /* Preview Assets.xcassets */; };
+		CEE23968287B4FD2002AE573 /* CarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23967287B4FD2002AE573 /* CarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7731B0287FEB1E0014503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE7731B1287FF43A0014503A /* ActionCompanenets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCompanenets.swift; sourceTree = "<group>"; };
+		CEA957DC287C0AFD00399315 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		CEA957DE287C0B2D00399315 /* CommonCompanents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCompanents.swift; sourceTree = "<group>"; };
 		CEDD86032874214100F98704 /* TEslaUiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEslaUiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDD86062874214100F98704 /* TEslaUiViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEslaUiViewApp.swift; sourceTree = "<group>"; };
 		CEDD86082874214100F98704 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEDD860A2874214300F98704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEDD860D2874214300F98704 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEE23967287B4FD2002AE573 /* CarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,13 @@
 		CEDD86052874214100F98704 /* TEslaUiView */ = {
 			isa = PBXGroup;
 			children = (
+				CE7731B0287FEB1E0014503A /* Info.plist */,
 				CEDD86062874214100F98704 /* TEslaUiViewApp.swift */,
 				CEDD86082874214100F98704 /* ContentView.swift */,
+				CE7731B1287FF43A0014503A /* ActionCompanenets.swift */,
+				CEE23967287B4FD2002AE573 /* CarController.swift */,
+				CEA957DC287C0AFD00399315 /* LocationView.swift */,
+				CEA957DE287C0B2D00399315 /* CommonCompanents.swift */,
 				CEDD860A2874214300F98704 /* Assets.xcassets */,
 				CEDD860C2874214300F98704 /* Preview Content */,
 			);
@@ -62,7 +74,6 @@
 		CEDD860C2874214300F98704 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CEDD860D2874214300F98704 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +136,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDD860E2874214300F98704 /* Preview Assets.xcassets in Resources */,
 				CEDD860B2874214300F98704 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDD86092874214100F98704 /* ContentView.swift in Sources */,
+				CEA957DD287C0AFD00399315 /* LocationView.swift in Sources */,
+				CEE23968287B4FD2002AE573 /* CarController.swift in Sources */,
+				CEA957DF287C0B2D00399315 /* CommonCompanents.swift in Sources */,
 				CEDD86072874214100F98704 /* TEslaUiViewApp.swift in Sources */,
+				CE7731B2287FF43A0014503A /* ActionCompanenets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +284,12 @@
 				DEVELOPMENT_TEAM = 9566582XD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TEslaUiView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +316,12 @@
 				DEVELOPMENT_TEAM = 9566582XD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TEslaUiView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
