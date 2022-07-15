@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ActionCompanenets: View {
     var body: some View {
-        //        ActionNotifiacrion(open: .constant(true), icon: "fanblades.fill", text: "Turning on the fan")
-        //       VoiceMessige(open: .constant(true), text: "Turning on the fan")
+                ActionNotifiacrion(open: .constant(true), icon: "fanblades.fill", text: "Turning on the fan")
+               VoiceMessige(open: .constant(true), text: "Turning on the fan")
         MpPleyr()
     }
 }
